@@ -685,7 +685,7 @@
 		FE2245841F75AC82009F2B2B /* CustomFieldsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFieldsContainer.swift; sourceTree = "<group>"; };
 		FE22458B1F75BECC009F2B2B /* CustomFieldsContainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFieldsContainerTests.swift; sourceTree = "<group>"; };
 		FE23A91C1F59F3A0007E946D /* QuizTrain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuizTrain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE23A91F1F59F3A0007E946D /* QuizTrain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizTrain.h; sourceTree = "<group>"; };
+		FE23A91F1F59F3A0007E946D /* QuizTrain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QuizTrain.h; path = ../../Sources/QuizTrain/QuizTrain.h; sourceTree = "<group>"; };
 		FE23A9251F59F3A0007E946D /* QuizTrainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTrainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE23A92C1F59F3A0007E946D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE23A9541F59F415007E946D /* Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
@@ -803,15 +803,15 @@
 		FE813A171F73126F00265569 /* JSONDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDictionary.swift; sourceTree = "<group>"; };
 		FE8464621FE307B1006CB58F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FE8464641FE307BB006CB58F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		FE8464671FE319EA006CB58F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE8464841FE31D4A006CB58F /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		FE8464671FE319EA006CB58F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Sources/QuizTrain/Info.plist; sourceTree = "<group>"; };
+		FE8464841FE31D4A006CB58F /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = .swiftlint.yml; path = ../../.swiftlint.yml; sourceTree = "<group>"; };
 		FE8464851FE31D58006CB58F /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
-		FE894C251F5A25CA0057E021 /* ObjectAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectAPI.swift; sourceTree = "<group>"; };
+		FE894C251F5A25CA0057E021 /* ObjectAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ObjectAPI.swift; path = ../../../Sources/QuizTrain/Network/ObjectAPI.swift; sourceTree = "<group>"; };
 		FE8C2D591FBA391F005A4150 /* Date+Seconds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Seconds.swift"; sourceTree = "<group>"; };
 		FE978CE81F9528320005D181 /* API.RequestResultDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.RequestResultDebug.swift; sourceTree = "<group>"; };
 		FE978CEA1F9528400005D181 /* API.RequestErrorDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.RequestErrorDebug.swift; sourceTree = "<group>"; };
 		FE978CEC1F9532BA0005D181 /* URLRequestDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestDebug.swift; sourceTree = "<group>"; };
-		FEA348771F5A141300C1E37A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		FEA348771F5A141300C1E37A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = API.swift; path = ../../../Sources/QuizTrain/Network/API.swift; sourceTree = "<group>"; };
 		FEAE7F911F7C5ABE00906FE1 /* Config.Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.Context.swift; sourceTree = "<group>"; };
 		FEAE7F951F7C5D0C00906FE1 /* Config.ContextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.ContextTests.swift; sourceTree = "<group>"; };
 		FEAE99511FEC38BA00B52CA9 /* QuizTrain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuizTrain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -851,7 +851,7 @@
 		FEDFF2761FE1B0A000AEB3D6 /* MultipleMatchError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleMatchError.swift; sourceTree = "<group>"; };
 		FEE774341FA8E2480016AACE /* EquatableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquatableTests.swift; sourceTree = "<group>"; };
 		FEE774361FA8EA980016AACE /* AssertEquatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertEquatable.swift; sourceTree = "<group>"; };
-		FEEC443A1FB4D1BC0042BD5A /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = QuizTrain/Network/Filters/Filter.swift; sourceTree = SOURCE_ROOT; };
+		FEEC443A1FB4D1BC0042BD5A /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/QuizTrain/Network/Filters/Filter.swift; sourceTree = SOURCE_ROOT; };
 		FEEC443D1FB4D23F0042BD5A /* Filter.Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.Value.swift; sourceTree = "<group>"; };
 		FEEC443F1FB4D3270042BD5A /* QueryItemProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryItemProvider.swift; sourceTree = "<group>"; };
 		FEF172621F857F53004FFFFF /* AssertJSONSerializing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertJSONSerializing.swift; sourceTree = "<group>"; };
@@ -1068,7 +1068,8 @@
 				FE8464671FE319EA006CB58F /* Info.plist */,
 				FE8464841FE31D4A006CB58F /* .swiftlint.yml */,
 			);
-			path = QuizTrain;
+			name = QuizTrain;
+			path = Sources/QuizTrain;
 			sourceTree = "<group>";
 		};
 		FE23A9291F59F3A0007E946D /* QuizTrainTests */ = {
@@ -2685,7 +2686,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/QuizTrain/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/QuizTrain/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -2708,7 +2709,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/QuizTrain/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/QuizTrain/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
